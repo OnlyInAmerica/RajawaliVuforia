@@ -31,3 +31,6 @@ RajawaliVuforia/obj/local/armeabi/objs/RajawaliVuforiaLib/SampleUtils.o.d
 vuforia-sdk-android-2-6-10/
 RajawaliVuforiaExample/gen/
 vuforia-sdk-android-2-8-8/
+RajawaliVuforia/build/
+RajawaliVuforia/jni/QCAR/
+RajawaliVuforia/obj

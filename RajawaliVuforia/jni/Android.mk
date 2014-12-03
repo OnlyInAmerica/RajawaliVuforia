@@ -18,8 +18,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Vuforia-prebuilt
-LOCAL_SRC_FILES = ../../vuforia-sdk-android-2-8-8/build/lib/$(TARGET_ARCH_ABI)/libVuforia.so
-LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../vuforia-sdk-android-2-8-8/build/include
+LOCAL_SRC_FILES = /Users/davidbrodsky/vuforia-sdk-android-3-0-9/build/lib/$(TARGET_ARCH_ABI)/libVuforia.so
+LOCAL_EXPORT_C_INCLUDES := /Users/davidbrodsky/vuforia-sdk-android-3-0-9/build/include
 include $(PREBUILT_SHARED_LIBRARY)
 
 #-----------------------------------------------------------------------------
@@ -62,6 +62,8 @@ LOCAL_CFLAGS := -Wno-write-strings -Wno-psabi $(OPENGLES_DEF)
 
 LOCAL_LDLIBS := \
     -llog $(OPENGLES_LIB)
+
+LOCAL_C_INCLUDES := /Users/davidbrodsky/vuforia-sdk-android-3-0-9/build/include
 
 # The list of shared libraries this module depends on at runtime.
 # This information is used at link time to embed the corresponding information
